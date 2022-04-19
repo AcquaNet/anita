@@ -52,6 +52,12 @@ nav a:hover {
 	opacity: 0.5;
 	height: 610px; 
 }
+.banner-forma-parte {
+	width: 100%; 
+	margin-bottom: 15px; 
+	opacity: 0.5;
+	height: 610px; 
+}
 .divLogo {
     width: 100%; 
     height: 100px;
@@ -103,6 +109,12 @@ nav a:hover {
 	width: 100%; 
 }
 .contenedor-pq-plantamos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+	width: 100%; 
+}
+.contenedor-forma-parte{
     position: relative;
     display: inline-block;
     text-align: center;
