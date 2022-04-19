@@ -43,7 +43,14 @@ nav a:hover {
 .banner-sobre-nos {
 	width: 100%; 
 	margin-bottom: 15px; 
-	opacity: 0.5
+	opacity: 0.5;
+	height: 610px; 
+}
+.banner-pq-plantamos {
+	width: 100%; 
+	margin-bottom: 15px; 
+	opacity: 0.5;
+	height: 610px; 
 }
 .divLogo {
     width: 100%; 
@@ -93,7 +100,13 @@ nav a:hover {
     position: relative;
     display: inline-block;
     text-align: center;
-	width: 100%;
+	width: 100%; 
+}
+.contenedor-pq-plantamos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+	width: 100%; 
 }
 .centrado{
     position: absolute;
