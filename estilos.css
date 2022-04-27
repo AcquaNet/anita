@@ -32,8 +32,8 @@ nav a:hover {
 	margin: 30px; 
 	padding: 4px
 }
-.logo {
-	width: 110px
+.imgLogo {
+	width: 200px
 }
 .banner {
 	width: 100%; 
@@ -75,10 +75,8 @@ nav a:hover {
 	padding: 0px;
 	
 }
-.imgLogo {
-    max-height:200%;
-    max-width:15%; 
-} 
+
+   
 .parent{
   display: flex;
   flex-flow: wrap;
@@ -157,3 +155,38 @@ nav a:hover {
 	margin-bottom: 50px;
 	color: lightgoldenrodyellow 
 } 
+
+@media(max-width:480px){
+	.parent .texto {
+	border: 0px solid white;
+	background-color: lightgoldenrodyellow; 
+	width:100%;
+	margin-top:0px;
+	color:black;
+	text-align: center;
+	padding: 40px;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: 'Merriweather', serif;
+	}
+
+	.parent img{
+		
+    background-color: lightgoldenrodyellow;
+	width:100%;
+	height: 350px;
+		
+}
+
+
+	.banner {
+	width: 100%; 
+	margin-bottom: 15px; 
+	opacity: 0.5;  
+	}
+	.centrado {¨font
+		}
+
+
+
+	
