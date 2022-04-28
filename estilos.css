@@ -212,11 +212,11 @@ nav a:hover {
     .arbolesdonados{
 	font-size: 18px;
 	}
-	.footer {
-	width:100%;
-		}
+	
 	
 	nav a {
-	display: none;
+	font-size: 8px;
+	margin: 8px; 
 	}
-	
+		}
+  
