@@ -181,6 +181,30 @@ nav a:hover {
 	margin-bottom: 15px; 
 	opacity: 0.5;  
 	}
+	.banner-sobre-nos {	
+	width: 100%; 
+	margin-bottom: 15px; 
+	opacity: 0.5; 
+	height: 250px;
+	}	
+	.banner-pq-plantamos {
+	width: 100%; 
+	margin-bottom: 15px; 
+	opacity: 0.5;
+	height: 250px;
+	}
+	.banner-forma-parte {
+	width: 100%; 
+	margin-bottom: 15px; 
+	opacity: 0.5;
+	height: 250px;
+	}	
+	.banner-dona {
+	width: 100%; 
+	margin-bottom: 15px; 
+	opacity: 0.5; 
+	height: 250px;
+	}	
 	.centrado {
 	font-size: 18px;
 	}
@@ -195,3 +219,4 @@ nav a:hover {
 	nav a {
 	display: none;
 	}
+	
