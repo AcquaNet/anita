@@ -155,7 +155,8 @@ nav a:hover {
 	margin-bottom: 50px;
 	color: lightgoldenrodyellow 
 } 
-
+.imagenmedia {display: none}
+.icono {display: none}
 @media(max-width:480px){
 	.parent .texto {
 	border: 0px solid white;
@@ -215,8 +216,15 @@ nav a:hover {
 	
 	
 	nav a {
-	font-size: 8px;
+	font-size: 18px;
 	margin: 8px; 
+	display: block;
+	
 	}
+	.imagenmedia {display: block}
+	.imagencompu {display: none}
+	nav {display: none}
+	.responsive{display: block}
+	.icono {display: block}
 		}
   

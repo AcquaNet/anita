@@ -4,6 +4,7 @@
 <meta charset="iso-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DONA</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -17,7 +18,8 @@
   		  	<img  class="imgLogo" src = "../imagenes/plantarg.png" alt = "Logo">
 		  </a>
 		</div>
-		<nav> 
+		   <a href="javascript:void(0);" class="icono" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		<nav id="navegador" class=" "> 
 			<a href="../anexo/sobre-nosotros.html">SOBRE NOSOTROS</a>
 			<a href="../anexo/por-que-plantamos.html">¿POR QUÉ PLANTAMOS?</a>
 		    <a href="../anexo/forma-parte.html">FORMA PARTE</a>
@@ -37,6 +39,25 @@
 		<p>Seguinos</p>
         <a href="https://www.instagram.com/somos.plantarg/?hl=es" target="_blank"><img src="../imagenes/instagram-logo.png" style="width: 3%"></a>
     </footer>
+	<script>
+
+   function myFunction() {
+
+     var x = document.getElementById("navegador");
+
+     if (x.className === " ") {
+
+       x.className += "responsive";
+
+     } else {
+
+       x.className = " ";
+
+     }
+
+   }
+
+</script>
  
 </body>
 </html>
