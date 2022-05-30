@@ -29,8 +29,9 @@
     
     <section>
 <div class="contenedor">
-  <img class="banner" src="imagenes/arbol3.jpg">
-  <div class="centrado">
+  <img class="banner mySlides" src="imagenes/arbol3.jpg">
+	 <img class="banner mySlides" src="imagenes/arbol2.jpg">
+  <div class="centrado"> 
 	  <h1>Ayudanos a frenar el cambio climatico</h1>
 	  <p>DONA</p>
 </div></div>
@@ -80,8 +81,76 @@
 		<p>Seguinos</p>
         <a href="https://www.instagram.com/somos.plantarg/?hl=es" target="_blank"><img src="imagenes/instagram-logo.png" style="width: 3%"></a>
     </footer>
+
 	<script>
 
+
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+
+function plusDivs(n) {
+
+   showDivs(slideIndex += n);
+
+}
+
+
+
+function showDivs(n) {
+
+   var i;
+
+   // acá define qué elemento entra en el slider
+
+   var x = document.getElementsByClassName("mySlides");
+
+   if (n > x.length) {slideIndex = 1}
+
+   if (n < 1) {slideIndex = x.length} ;
+
+   for (i = 0; i < x.length; i++) {
+
+       x[i].style.display = "none";
+
+   }
+
+   x[slideIndex-1].style.display = "block";
+
+}
+
+
+
+carousel();
+
+
+
+function carousel() {
+
+   var i;
+
+   var x = document.getElementsByClassName("mySlides");
+
+   for (i = 0; i < x.length; i++) {
+
+     x[i].style.display = "none";
+
+   }
+
+   slideIndex++;
+
+   if (slideIndex > x.length) {slideIndex = 1}
+
+   x[slideIndex-1].style.display = "block";
+
+   setTimeout(carousel, 2000); // Cambia la imagen cada 2 segundos
+
+}
+
+</script>
+	<script>
    function myFunction() {
 
      var x = document.getElementById("navegador");
