@@ -83,11 +83,13 @@ nav a:hover {
   margin-left: 30px;
   margin-right: 30px;
 }
+
 .parent img {
   background-color: lightgoldenrodyellow;
   width: 50%;
   height: 350px; 
 } 
+
 .parent .texto {
   border: 0px solid white;
   background-color: lightgoldenrodyellow;
@@ -100,6 +102,7 @@ nav a:hover {
   font-size: 18px;
   font-family: 'Merriweather', serif;  
 }
+ 
 .contenedor{
     position: relative;
     display: inline-block;
