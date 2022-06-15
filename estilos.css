@@ -160,6 +160,16 @@ nav a:hover {
 } 
 .imagenmedia {display: none}
 .icono {display: none}
+.agradecimiento{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: lightgoldenrodyellow }
+ .anuncio{
+background-color: lightgoldenrodyellow;
+	 }
 @media(max-width:480px){
 	.parent .texto {
 	border: 0px solid white;
