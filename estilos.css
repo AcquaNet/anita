@@ -168,7 +168,14 @@ nav a:hover {
 	margin-bottom: 50px;
 	color: lightgoldenrodyellow }
  
- 
+.publicidad{ 
+   
+    text-align: center;
+}
+.publicidad iframe{
+	width: 728px; 
+	height: 90px;
+}
 @media(max-width:480px){
 	.parent .texto {
 	border: 0px solid white;
@@ -243,4 +250,5 @@ nav a:hover {
 	color:lightgoldenrodyellow;
 	text-align: center;
 	}
-  
+
+ 
