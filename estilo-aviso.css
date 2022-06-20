@@ -47,5 +47,31 @@ div a:hover {
   font-family: 'Merriweather', serif;  
   object-fit: contain;
 } 
+@media(max-width:480px){
+	
+	.caja-anuncio-parent{
+		  background-color: lightgoldenrodyellow;
+		  display: flex;
+		  flex-flow: wrap;
+		  margin-left: 0px;
+		  margin-right: 0px;
+	}
+  
+	.caja-anuncio-parent-columna {
+	  border: 0px solid white;
+	  background-color: lightgoldenrodyellow;
+	  width: 100%;
+	  max-height: 250px;
+	  margin-top: opx;
+	  color: black;
+	  text-align: center;
+	  padding: 0px;
+	  box-sizing: border-box;
+	  font-size: 18px;
+	  font-family: 'Merriweather', serif;  
+	  object-fit: contain;
+	} 
+}
+
 
   

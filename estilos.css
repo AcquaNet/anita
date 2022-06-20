@@ -177,6 +177,10 @@ nav a:hover {
 	height: 90px;
 }
 @media(max-width:480px){
+	.publicidad iframe{
+	width: 300px; 
+	height: 250px;
+	}
 	.parent .texto {
 	border: 0px solid white;
 	background-color: lightgoldenrodyellow; 
