@@ -1,0 +1,51 @@
+/* CSS Document */
+
+body {
+	background-color: #000000;  
+	margin: 0;
+}
+header {
+	background-color: lightgoldenrodyellow; 
+	padding: 1px; 
+	text-align: left;
+	} 
+
+div a {
+	color: #39362D; 
+	border: 0 px #fff solid; 
+	margin: 30px; 
+	padding: 4px
+	}
+div a:hover {
+	color: #7F8F4E; 
+	border: 0px #fff solid; 
+	margin: 30px; 
+	padding: 4px
+}
+
+.caja-anuncio-parent{
+  background-color: lightgoldenrodyellow;
+  height: 90px;
+  width:  728px;
+  display: flex;
+  flex-flow: wrap;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+  
+.caja-anuncio-parent-columna {
+  border: 0px solid white;
+  background-color: lightgoldenrodyellow;
+  width: 33.33%;
+  max-height: 90px;
+  margin-top: opx;
+  color: black;
+  text-align: center;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;  
+  object-fit: contain;
+} 
+
+  

@@ -167,26 +167,8 @@ nav a:hover {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	color: lightgoldenrodyellow }
- .anuncio{
-background-color: lightgoldenrodyellow;
-	 }
-.cajaanuncio{
-	dispaly:flex; 
-	flex-flow: wrap}
-.cajaanuncio div {
-	text-align: center;
-	width: 33px;
-}
-.textoanuncio {
-	font-size: 20px;
-	font-family: 'Merriweather', serif;
-	color: black;
-}
-.textoanuncio a{
-	font-size: 20px;
-	color: black;
-}
-
+ 
+ 
 @media(max-width:480px){
 	.parent .texto {
 	border: 0px solid white;
