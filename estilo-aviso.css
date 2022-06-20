@@ -61,13 +61,12 @@ div a:hover {
 	  border: 0px solid white;
 	  background-color: lightgoldenrodyellow;
 	  width: 100%;
-	  max-height: 250px;
-	  margin-top: opx;
+	  max-height: 250px; 
 	  color: black;
 	  text-align: center;
 	  padding: 0px;
 	  box-sizing: border-box;
-	  font-size: 18px;
+	  font-size: 14px;
 	  font-family: 'Merriweather', serif;  
 	  object-fit: contain;
 	} 
