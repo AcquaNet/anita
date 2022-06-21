@@ -29,8 +29,6 @@ div a:hover {
   background-color: lightgoldenrodyellow;
   display: flex;
   flex-flow: wrap;
-  margin-left: 0px;
-  margin-right: 0px;
 }
   
 .caja-anuncio-parent-columna {
@@ -38,10 +36,8 @@ div a:hover {
   background-color: lightgoldenrodyellow;
   width: 33.33%;
   max-height: 90px;
-  margin-top: opx;
   color: black;
   text-align: center;
-  padding: 0px;
   box-sizing: border-box;
   font-size: 18px;
   font-family: 'Merriweather', serif;  
