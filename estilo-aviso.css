@@ -3,6 +3,8 @@
 body {
 	background-color: #000000;  
 	margin: 0;
+	height: 90px;
+	width:  728px;
 }
 header {
 	background-color: lightgoldenrodyellow; 
@@ -25,8 +27,6 @@ div a:hover {
 
 .caja-anuncio-parent{
   background-color: lightgoldenrodyellow;
-  height: 90px;
-  width:  728px;
   display: flex;
   flex-flow: wrap;
   margin-left: 0px;
