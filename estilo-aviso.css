@@ -47,7 +47,7 @@ div a:hover {
 	
   body {
 		background-color: #000000; 
-		border: 2px solid red;	
+		border: 0px solid red;	
 		margin: 0;
 		height: 250px;
 		width:  300px;
@@ -59,20 +59,17 @@ div a:hover {
 	  flex-flow: wrap;
 	}
   
-.caja-anuncio-parent-columna {
-  border: 0px solid white;
-  background-color: lightgoldenrodyellow;
-  width: 300%;
-  max-height: 83.3px;
-  margin-top: opx;
-  color: black;
-  text-align: center;
-  padding: 0px;
-  box-sizing: border-box;
-  font-size: 18px;
-  font-family: 'Merriweather', serif;  
-  object-fit: contain;
-} 
+  .caja-anuncio-parent-columna {
+	  border: 0px solid white;
+	  background-color: lightgoldenrodyellow;
+	  width: 100%; 
+	  color: black;
+	  text-align: center; 
+	  box-sizing: border-box;
+	  font-size: 18px;
+	  font-family: 'Merriweather', serif;  
+	  object-fit: contain;
+	} 
 
 } 
   
